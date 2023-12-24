@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(BackgroundCoffee.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+body .nav {
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 100px;
+    margin-right: 10px;
+    color: white;
+}
+
+.nav h1 {
+    font-size: 40px;
+    color: white;
+}
+
+#dot {
+    color: rgb(136, 60, 10);
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 50px;
+}
+
+.nav .services {
+    margin-left: 800px;
+    color: white;
+}
+
+.services .about {
+    text-decoration: none;
+}
+
+.lists li:hover {
+    color: tomato;
+}
+
+.about .lists {
+    display: flex;
+}
+
+.lists li {
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+body .main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    color: white;
+    height: 728px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
+
+#heading_main {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#text {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.button button {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    height: 50px;
+    width: 150px;
+}
+
+.button button:hover {
+    transition: all 0.1s ease-in;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
