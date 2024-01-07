@@ -441,8 +441,7 @@ body {
         width: 150px;
     }
     .leftTwo {
-        justify-content: end;
-        margin:20px;
+        padding:0
     }
 }
 
