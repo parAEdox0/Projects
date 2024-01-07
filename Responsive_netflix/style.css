@@ -392,7 +392,7 @@ body {
     }
 
     .leftTwo{
-        padding: 20px;
+        padding: 30px;
         width: 100%;
         align-items: center;
     }
@@ -470,8 +470,12 @@ body {
         width: 170px;
     }
 
-    .leftOne, .leftTwo{
+    .leftOne{
         padding: 0 15px;
+    }
+
+    .leftTwo{
+        padding: 10px 15px;
     }
 
     .leftOne h1, .leftTwo h1{
@@ -519,6 +523,7 @@ body {
         height: 150px;
         width: 200px;
     }
+
 
     .twoImage, #twoImage {
         width: 260px;
