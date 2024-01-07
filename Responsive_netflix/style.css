@@ -620,6 +620,9 @@ body {
         width: 100%;
         height: 15vh;
     }
+    .footerButton{
+        margin: 10px 0; 
+    }
 }
 
 @media (max-width:430px) {
