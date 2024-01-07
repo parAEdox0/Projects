@@ -386,13 +386,13 @@ body {
     }
 
     .leftOne{
-        padding: 20px;
+        padding: 30px;
         width: 100%;
         align-items: center;
     }
 
     .leftTwo{
-        padding: 30px;
+        padding: 50px;
         width: 100%;
         align-items: center;
     }
@@ -439,6 +439,10 @@ body {
     .getStarted {
         height: 55px;
         width: 150px;
+    }
+    .leftTwo {
+        justify-content: end;
+        margin:20px;
     }
 }
 
