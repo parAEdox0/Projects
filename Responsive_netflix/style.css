@@ -504,14 +504,7 @@ body {
     .bgOpac .nav {
         justify-content: space-between;
     }
-}
-
-@media screen and (width: 390px) and (height: 844px) {
-    .rightTwo{
-        height: 60%;
-    }
-  }
-  
+} 
 
 @media (max-width:320px) {
     /* .bgOpac .nav {
