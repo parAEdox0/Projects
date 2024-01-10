@@ -8,3 +8,4 @@ Hosted url: https://paraedox0.github.io/Projects/
 3.Color paette :  https://paraedox0.github.io/Projects/Color_palette/
 4.Coffee :  https://paraedox0.github.io/Projects/Coffee/
 5.Netflix : https://paraedox0.github.io/Projects/Responsive_netflix/
+6.Dropbox : https://paraedox0.github.io/Projects/Dropbox/
