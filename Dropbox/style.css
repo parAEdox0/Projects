@@ -834,6 +834,18 @@ video {
   text-underline-offset: 4px;
 }
 
+.hover\:underline:hover{
+  text-decoration-line: underline;
+}
+
+.hover\:underline-offset-2:hover{
+  text-underline-offset: 2px;
+}
+
+.hover\:underline-offset-1:hover{
+  text-underline-offset: 1px;
+}
+
 @media (min-width: 475px){
   .xs\:block{
     display: block;
