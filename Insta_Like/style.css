@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./Assets/bg.png);
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.container .banner {
+    display: flex;
+    flex-direction: column;
+    height: 760px;
+    width: 500px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner .border-top {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 15px;
+    border-radius: 18px 18px 0 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+}
+
+#profile {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.banner .mid {
+    cursor: pointer;
+    position: relative;
+    height: calc(100% - 120px);
+    object-position: bottom;
+}
+
+.mid #midLike {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.829);
+    transform: scale(0);
+    top: 40%;
+    left: 40%;
+    font-size: 100px;
+    transition: all ease 0.2s;
+}
+
+#img {
+    height: 100%;
+    width: 100%;
+}
+
+.banner .border-bottom {
+    color: white;
+    display: flex;
+    font-size: x-large;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0 0 18px 18px;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+}
+
+.border-bottom i {
+    cursor: pointer;
+}
+
+#heart {
+    transition: all ease 1s;
+}
+
+#postLike {
+    transition: all ease 0.2s;
+    display: none;
+    font-size: xx-large;
+    left: -3px;
+    top: -3px;
+    color: red;
+}
+
+@media (max-width:750px) {
+    .container .banner {
+        height: 600px;
+        width: 400px;
+    }
+}
+
+@media (max-width:480px) {
+    .container .banner {
+        height: 500px;
+        width: 300px;
+    }
+}
+
+@media (max-width:370px) {
+    .container .banner {
+        height: 400px;
+        width: 250px;
+    }
+}
