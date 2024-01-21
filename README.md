@@ -9,3 +9,4 @@ Hosted url: https://paraedox0.github.io/Projects/
 4.Coffee :  https://paraedox0.github.io/Projects/Coffee/
 5.Netflix : https://paraedox0.github.io/Projects/Responsive_netflix/
 6.Dropbox : https://paraedox0.github.io/Projects/Dropbox/
+7.Insta_Like : https://paraedox0.github.io/Projects/Insta_Like/
