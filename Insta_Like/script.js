@@ -1,7 +1,7 @@
 let heart = document.querySelector("#heart");
 let postLike = document.querySelector("#postLike");
 let banner = document.querySelector(".mid");
-let midLike = document.querySelector("#midLike")
+let midLike = document.querySelector("#midLike");
 
 
 banner.addEventListener("dblclick", () => {
