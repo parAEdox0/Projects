@@ -57,6 +57,8 @@ function stopGame(winner) {
     }
     winMessageContainer.style.display = "flex";
     winMessage.innerText = `Player ${winner} wins`;
+    winMessage.style.fontSize = "2rem";
+    winMessage.style.fontWeight = "900";
 }
 
 function startGame() {
