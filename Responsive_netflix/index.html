@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/42a78ee061.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
     <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
     <link rel="shortcut icon" href="./Assets/netflix_logo_icon_170919.png" type="image/x-icon">
@@ -12,182 +13,188 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="bgOpac">
-            <div class="nav">
-                <div class="logo">
-                    <img src="./Assets/logo.svg" id="logo">
+    <div id="main">
+        <div class="header">
+            <div class="bgOpac">
+                <div class="nav">
+                    <div class="logo">
+                        <img src="./Assets/logo.svg" id="logo">
+                    </div>
+                    <div class="buttons">
+                        <button class="button languageButton"><i class="fa-solid fa-globe"></i><span
+                                class="decor">_</span>
+                            <span class="text">English</span><span class="decor">_</span><i
+                                class="fa-solid fa-caret-down"></i>
+                        </button>
+                        <button class="button signinButton">Sign in</button>
+                    </div>
                 </div>
-                <div class="buttons">
-                    <button class="button languageButton"><i class="fa-solid fa-globe"></i><span class="decor">_</span>
-                        <span class="text">English</span><span class="decor">_</span><i
-                            class="fa-solid fa-caret-down"></i>
-                    </button>
-                    <button class="button signinButton">Sign in</button>
+                <div class="content">
+                    <h1>
+                        Enjoy big movies, hit series and more from ₹149.
+                    </h1>
+                    <p class="pOne">
+                        Join today. Cancel anytime.
+                    </p>
+                    <p class="pTwo">
+                        Ready to watch? Enter your email to create or restart your membership.
+                    </p>
+                    <div class="contentButtons">
+                        <input type="email" class="email" placeholder="Email address">
+                        <button class="getStarted">
+                            Get Started >
+                        </button>
+                    </div>
                 </div>
             </div>
-            <div class="content">
+        </div>
+        <div class="mainOne">
+            <div class="leftOne">
                 <h1>
-                    Enjoy big movies, hit series and more from ₹149.
+                    Enjoy on your TV
                 </h1>
-                <p class="pOne">
-                    Join today. Cancel anytime.
-                </p>
-                <p class="pTwo">
-                    Ready to watch? Enter your email to create or restart your membership.
-                </p>
-                <div class="contentButtons">
-                    <input type="email" class="email" placeholder="Email address">
-                    <button class="getStarted">
-                        Get Started >
-                    </button>
+                <p>
+                    Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            </div>
+            <div class="rightOne">
+                <div class="oneImage">
+                    <img src="./Assets/imgOne.png" id="oneImage">
                 </div>
             </div>
         </div>
-    </div>
-    <div class="mainOne">
-        <div class="leftOne">
-            <h1>
-                Enjoy on your TV
-            </h1>
-            <p>
-                Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
-        </div>
-        <div class="rightOne">
-            <div class="oneImage">
-                <img src="./Assets/imgOne.png" id="oneImage">
+        <div class="mainTwo">
+            <div class="leftTwo">
+                <h1>
+                    Download your shows
+                </h1>
+                <p>
+                    Save your favourites easily and always have something to watch.
+                </p>
+            </div>
+            <div class="rightTwo">
+                <div class="twoImage">
+                    <img src="Assets/imgTwo.png" id="twoImage">
+                </div>
             </div>
         </div>
-    </div>
-    <div class="mainTwo">
-        <div class="leftTwo">
-            <h1>
-                Download your shows
-            </h1>
-            <p>
-                Save your favourites easily and always have something to watch.
-            </p>
-        </div>
-        <div class="rightTwo">
-            <div class="twoImage">
-                <img src="Assets/imgTwo.png" id="twoImage">
+        <div class="mainOne">
+            <div class="leftOne">
+                <h1>
+                    Watch everywhere
+                </h1>
+                <p>
+                    Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+                </p>
+            </div>
+            <div class="rightOne">
+                <div class="oneImage">
+                    <img src="Assets/imgThree.png" id="oneImage">
+                </div>
             </div>
         </div>
-    </div>
-    <div class="mainOne">
-        <div class="leftOne">
-            <h1>
-                Watch everywhere
-            </h1>
-            <p>
-                Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
-            </p>
-        </div>
-        <div class="rightOne">
-            <div class="oneImage">
-                <img src="Assets/imgThree.png" id="oneImage">
+        <div class="mainTwo">
+            <div class="leftTwo">
+                <h1>
+                    Create profiles for kids
+                </h1>
+                <p>
+                    Send children on adventures with their favourite characters
+                </p>
+            </div>
+            <div class="rightTwo">
+                <div class="twoImage">
+                    <img src="Assets/imgFour.png" id="twoImage">
+                </div>
             </div>
         </div>
-    </div>
-    <div class="mainTwo">
-        <div class="leftTwo">
-            <h1>
-                Create profiles for kids
-            </h1>
-            <p>
-                Send children on adventures with their favourite characters
-            </p>
-        </div>
-        <div class="rightTwo">
-            <div class="twoImage">
-                <img src="Assets/imgFour.png" id="twoImage">
-            </div>
-        </div>
-    </div>
 
-    <div class="faq">
-        <h1>Frequently Asked Questions</h1>
-        <div class="questions">
-            <div class="question q1">
-                <p>What is Netflix?</p>
-                <i class="fa-solid fa-plus"></i>
+        <div class="faq">
+            <h1>Frequently Asked Questions</h1>
+            <div class="questions">
+                <div class="question q1">
+                    <p>What is Netflix?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="question q3">
+                    <p>How much does Netflix cost?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="question q4">
+                    <p>Where can I watch?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="question q5">
+                    <p>How do I cancel?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="question q6">
+                    <p>What can I watch on Netflix?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="question q2">
+                    <p>Is Netflix good for kids?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
             </div>
-            <div class="question q3">
-                <p>How much does Netflix cost?</p>
-                <i class="fa-solid fa-plus"></i>
-            </div>
-            <div class="question q4">
-                <p>Where can I watch?</p>
-                <i class="fa-solid fa-plus"></i>
-            </div>
-            <div class="question q5">
-                <p>How do I cancel?</p>
-                <i class="fa-solid fa-plus"></i>
-            </div>
-            <div class="question q6">
-                <p>What can I watch on Netflix?</p>
-                <i class="fa-solid fa-plus"></i>
-            </div>
-            <div class="question q2">
-                <p>Is Netflix good for kids?</p>
-                <i class="fa-solid fa-plus"></i>
+            <p>
+                Ready to watch? Enter your email to create or restart your membership.
+            </p>
+
+            <div class="contentButtons faqButtons">
+                <input type="email" class="email" placeholder="Email address">
+                <button class="getStarted">
+                    Get Started >
+                </button>
             </div>
         </div>
-        <p>
-            Ready to watch? Enter your email to create or restart your membership.
-        </p>
-
-        <div class="contentButtons faqButtons">
-            <input type="email" class="email" placeholder="Email address">
-            <button class="getStarted">
-                Get Started >
+        <div class="footer">
+            <p>
+                Questions? Call <u>000-800-919-1694</u>
+            </p>
+            <div class="extraInfo">
+                <div class="info" id="i1">
+                    <ul class="info1">
+                        <li>FAQ</li>
+                        <li>Investor Relations</li>
+                        <li>Privacy</li>
+                        <li>Speed Test</li>
+                    </ul>
+                </div>
+                <div class="info" id="i2">
+                    <ul class="info2">
+                        <li>Help Centre</li>
+                        <li>Jobs</li>
+                        <li>Cookie Preferences</li>
+                        <li>Legal Notices</li>
+                    </ul>
+                </div>
+                <div class="info" id="i3">
+                    <ul class="info3">
+                        <li>Account</li>
+                        <li>Ways to Watch</li>
+                        <li>Corporate Information</li>
+                        <li>Only on Netflix</li>
+                    </ul>
+                </div>
+                <div class="info" id="i4">
+                    <ul class="info4">
+                        <li>Media Centre</li>
+                        <li>Terms of Use</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+            <button class="button languageButton footerButton"><i class="fa-solid fa-globe"></i><span
+                    class="decor">_</span>
+                <span class="text">English</span><span class="decor">_</span><i class="fa-solid fa-caret-down"></i>
             </button>
+            <p>
+                Netflix India
+            </p>
         </div>
     </div>
-    <div class="footer">
-        <p>
-            Questions? Call <u>000-800-919-1694</u>
-        </p>
-        <div class="extraInfo">
-            <div class="info" id="i1">
-                <ul class="info1">
-                    <li>FAQ</li>
-                    <li>Investor Relations</li>
-                    <li>Privacy</li>
-                    <li>Speed Test</li>
-                </ul>
-            </div>
-            <div class="info" id="i2">
-                <ul class="info2">
-                    <li>Help Centre</li>
-                    <li>Jobs</li>
-                    <li>Cookie Preferences</li>
-                    <li>Legal Notices</li>
-                </ul>
-            </div>
-            <div class="info" id="i3">
-                <ul class="info3">
-                    <li>Account</li>
-                    <li>Ways to Watch</li>
-                    <li>Corporate Information</li>
-                    <li>Only on Netflix</li>
-                </ul>
-            </div>
-            <div class="info" id="i4">
-                <ul class="info4">
-                    <li>Media Centre</li>
-                    <li>Terms of Use</li>
-                    <li>Contact Us</li>
-                </ul>
-            </div>
-        </div>
-        <button class="button languageButton footerButton"><i class="fa-solid fa-globe"></i><span class="decor">_</span>
-            <span class="text">English</span><span class="decor">_</span><i class="fa-solid fa-caret-down"></i>
-        </button>
-        <p>
-            Netflix India
-        </p>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

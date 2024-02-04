@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 6vh;
+    width: 100vw;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.cross {
+    display: none;
+}
+
+.menuSearch {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menuSearch i {
+    margin-left: 25px;
+    font-size: 1.3rem;
+}
+
+.ham {
+    font-weight: 900;
+}
+
+.search {
+    margin-right: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.cartProfile {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cartProfile i {
+    font-size: 1.3rem;
+    margin-left: 15px;
+}
+
+.profile {
+    margin-right: 25px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 4.5vh;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.bannerLogo{
+    margin-left: 28px;
+    height: 50%;
+    width: 20%;
+}
+
+#bannerLogo {
+    height: 100%;
+    width: 100%;
+}
+
+.drop {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.dropUp {
+    display: none;
+}
+
+.heroContainer {
+    position: relative;
+}
+
+.hero {
+    width: 100%;
+    height: 55vh;
+    background: url(https://assets.xboxservices.com/assets/81/2d/812dcf18-15ed-4d35-b693-d28422b58f16.jpg?n=649272_Page-Hero-1084_1920x720.jpg);
+    background-position: 700px;
+    background-size: 1400px;
+    position: absolute;
+}
+
+.hero h2 {
+    text-align: center;
+}
+
+.heroCover {
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.429);
+    box-shadow: inset 0px -20px 20px 20px rgba(0, 0, 0, 0.302);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: end;
+}
+
+.heroBox {
+    font-size: 0.85rem;
+    padding: 0 15px;
+    color: black;
+    background-color: #FFD800;
+}
+
+.heroText {
+    text-align: center;
+    width: 70%;
+    font-size: 0.8rem;
+}
+
+.heroButton {
+    color: black;
+    padding: 2px 20px;
+    background-color: #8BD80A;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.cc {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.play {
+    display: none;
+}
+
+.heroTwo {
+    background: url(https://assets.xboxservices.com/assets/c4/2a/c42a8588-8074-4ed9-a3d5-95dc5c1b917a.jpg?n=0287110_Page-Hero-1084_Launch_1920x720.jpg);
+    background-position: 590px;
+    background-size: 1400px;
+}
+
+.logos {
+    height: 50vh;
+    width: 100%;
+    border: 1px solid black;
+}
+
