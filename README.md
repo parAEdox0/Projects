@@ -11,3 +11,4 @@ Hosted url: https://paraedox0.github.io/Projects/
 6.Dropbox : https://paraedox0.github.io/Projects/Dropbox/
 7.Insta_Like : https://paraedox0.github.io/Projects/Insta_Like/
 8.Tic-Tac-Toe : https://paraedox0.github.io/Projects/Tic-Tac-Toe/
+9.Dice_Roller : https://paraedox0.github.io/Projects/Dice_Roller/

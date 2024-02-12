@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main {
+    padding-top: 100px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 3rem;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.main button {
+    margin-top: 15px;
+    padding: 10px 40px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(55, 107, 128);
+    color: white;
+    cursor: pointer;
+}
+
+.result p {
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.image img {
+    height: 100px;
+    width: 100px;
+}
