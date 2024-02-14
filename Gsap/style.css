@@ -10,6 +10,7 @@ html, body {
     color: white;
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .page1 {
@@ -226,7 +227,73 @@ h2 span {
     width: 10px;
 }
 
+.page2 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url("https://images.unsplash.com/photo-1572283046480-e990be92d301?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2 .twoHeading h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14rem;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px;
+    letter-spacing: 20px;
+}
+
+.twoHead {
+    position: absolute;
+    top: 10%;
+    text-transform: uppercase;
+}
+
+.twoHead div {
+    display: flex;
+    gap: 700px;
+    font-size: 1rem;
+}
+
+/* .twoStarter {
+    font-size: 5rem;
+    margin-top: 70px;    text-transform: uppercase;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 20vh;
+    width: 100%;
+} */
 
 
+.twoHead div h3 {
+    color: grey;
+    font-weight: 300;
+    display: flex;
+    gap: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.267); 
+  }
+
+::-webkit-scrollbar-thumb {
+    height: 5px;
+    background: rgba(255, 255, 255, 0.468);
+    border-radius: 20px; 
+  }
 
 
