@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.vidContainer{
+    z-index: -99;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.vidContainer video {
+    z-index: -99;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.vidCover {
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.407);
+}
+
+.nav {
+    position: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 7rem;
+    gap: 3rem;
+    z-index: 1;
+    height: 20vh;
+    width: 100%;
+}
+
+#navLogo {
+    height: 70px;
+}
+
+.nav h3 {
+    font-size: 1.1rem;
+    font-weight: 550;
+}
