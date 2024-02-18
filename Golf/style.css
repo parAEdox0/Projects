@@ -1,6 +1,6 @@
 @font-face {
     font-family: fax;
-    src: url(./JTUSjIg1_i6t8kCHKm459Wlhyw.woff2);
+    src: url(./Font/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2);
 }
 
 * {
@@ -14,6 +14,10 @@ html, body {
     font-family: fax;
     height: 100%;
     width: 100%;
+}
+
+.main {
+    position: relative;
 }
 
 .vidContainer{
@@ -78,6 +82,11 @@ html, body {
     font-stretch: ultra-expanded;
 }
 
+.hero h1::selection {
+    background-color: #95C11E;
+    color: white;
+}
+
 .hero h1::before {
     content: "EAT. DRINK. PLAY.";
     height: 100%;
@@ -111,7 +120,6 @@ html, body {
     white-space: nowrap;
     overflow-x: hidden;
     gap: 50px;
-    margin-bottom: 300px;
 }
 
 .scroller h2{
@@ -125,20 +133,192 @@ html, body {
     animation-duration: 80s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    transition: all linear 0.5s;
+}
+
+.scroller h2:hover {
+    color: #95C11E;
 }
 
 .banner {
-    opacity: 0.5;
-    height: 100vh;
-    /* background-color: red; */
-    z-index: 999;
+    margin-top: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 100px;
 }
 
 .banner h2 {
-    font-size: 4rem;
+    font-size: 3.4rem;
+    font-weight: 600;
+}
+
+.banner img {
+    height: 220px;
+    width: 220px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.banner div {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner div p {
     font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    width: 43vw;
+}
+
+.bannerTwo {
+    padding: 70px 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bannerTwo img {
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.bannerThree {
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    background: linear-gradient(20deg, #A6DD23, #79CB2A, #40B333, #2AAA37);
+}
+
+.bannerThree img {
+    object-fit: cover;
+    height: 100%;
+    width: 30vh;
+}
+
+.bannerThree h2 {
+    text-align: center;
+    width: 50vw;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.bannerFour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.bannerFour h2 {
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    width: 60vw;
+}
+
+#bfOne {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: -150px;
+    left: -150px;
+}
+
+#bfTwo {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    bottom: -150px;
+    right: -150px
+}
+
+.bannerFive {
+    position: relative;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fiveBoxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    height: 22vh;
+    width: 25vw;
+    background-color: #95C11E;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.bannerFive h2 {
+    z-index: -1;
+    position: absolute;
+    font-family: serif;
+    font-size: 6.1rem;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+
+.bannerSix {
+    z-index: -10;
+    padding-right: 250px;
+    gap: 100px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 40vh;
+    background: linear-gradient(20deg, #A6DD23, #79CB2A, #40B333);
+}
+
+.bannerSix div {
+    font-size: 21px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bannerSix div h3 {
+    font-weight: 600;
+}
+
+.address p {
+    width: 12vw;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#sixBg {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    height: 40vh;
+    width: 50vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+#sixLogo {
+    z-index: 1;
+    height: 130px;
+    width: 130px;
+}
+
+.cursor {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #95C11E;
+    position: absolute;
 }
 
 @keyframes scroll {
